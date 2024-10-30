@@ -1,0 +1,34 @@
+.specifications {
+    background-color: #f9fbe7;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .spec-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .spec-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .icon {
+    font-size: 1.8em;
+    margin-right: 10px;
+    color: #8bc34a;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .value {
+    color: #333;
+  }
+  

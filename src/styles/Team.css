@@ -1,0 +1,26 @@
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .member {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .member p:first-child {
+    font-weight: bold;
+    color: #182848;
+  }
+  
